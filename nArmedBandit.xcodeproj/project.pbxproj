@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		121AA9121D36DA1F00C12A12 /* SlotMachineBinary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121AA9111D36DA1F00C12A12 /* SlotMachineBinary.swift */; };
+		121AA9141D36DB1000C12A12 /* BinaryBanditPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121AA9131D36DB1000C12A12 /* BinaryBanditPlayer.swift */; };
+		121AA91A1D3DB42900C12A12 /* PursuitBanditPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121AA9191D3DB42900C12A12 /* PursuitBanditPlayer.swift */; };
+		121AA91C1D3DB48900C12A12 /* ReinforcementComparisonBanditPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121AA91B1D3DB48900C12A12 /* ReinforcementComparisonBanditPlayer.swift */; };
+		121AA91E1D3DB63400C12A12 /* Selection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121AA91D1D3DB63400C12A12 /* Selection.swift */; };
+		121AA9211D3DBDBD00C12A12 /* PlayerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121AA9201D3DBDBD00C12A12 /* PlayerProtocol.swift */; };
+		121AA9231D3E034D00C12A12 /* Printer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121AA9221D3E034C00C12A12 /* Printer.swift */; };
+		121AA9261D3E0F6B00C12A12 /* Arithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121AA9251D3E0F6B00C12A12 /* Arithmetic.swift */; };
+		121AA9281D3E0F7300C12A12 /* Exponential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121AA9271D3E0F7300C12A12 /* Exponential.swift */; };
+		121AA92A1D3E0F7E00C12A12 /* Power.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121AA9291D3E0F7E00C12A12 /* Power.swift */; };
+		121AA92C1D3E0F9700C12A12 /* Auxiliary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121AA92B1D3E0F9700C12A12 /* Auxiliary.swift */; };
+		121AA92E1D3E2E3700C12A12 /* AdjustingSoftmaxPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121AA92D1D3E2E3700C12A12 /* AdjustingSoftmaxPlayer.swift */; };
+		12C922DC1D31616400801158 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C922DB1D31616400801158 /* AppDelegate.swift */; };
+		12C922DE1D31616400801158 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C922DD1D31616400801158 /* ViewController.swift */; };
+		12C922E11D31616400801158 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12C922DF1D31616400801158 /* Main.storyboard */; };
+		12C922E31D31616400801158 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12C922E21D31616400801158 /* Assets.xcassets */; };
+		12C922E61D31616400801158 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12C922E41D31616400801158 /* LaunchScreen.storyboard */; };
+		12C922EE1D3161B300801158 /* SlotMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C922ED1D3161B300801158 /* SlotMachine.swift */; };
+		12C922F01D31830000801158 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C922EF1D31830000801158 /* Extensions.swift */; };
+		12C922F71D32EF8900801158 /* BanditPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C922F61D32EF8900801158 /* BanditPlayer.swift */; };
+		12C922F91D32F51600801158 /* GALineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C922F81D32F51600801158 /* GALineChart.swift */; };
+		12C922FD1D330BA500801158 /* ChartDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C922FC1D330BA500801158 /* ChartDefaults.swift */; };
+		8FF8DA0CE62D1D851552F075 /* Pods_nArmedBandit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FBBCDABF58B3CBB4FAF744 /* Pods_nArmedBandit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04FBBCDABF58B3CBB4FAF744 /* Pods_nArmedBandit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nArmedBandit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		121AA9111D36DA1F00C12A12 /* SlotMachineBinary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlotMachineBinary.swift; sourceTree = "<group>"; };
+		121AA9131D36DB1000C12A12 /* BinaryBanditPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryBanditPlayer.swift; sourceTree = "<group>"; };
+		121AA9191D3DB42900C12A12 /* PursuitBanditPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PursuitBanditPlayer.swift; sourceTree = "<group>"; };
+		121AA91B1D3DB48900C12A12 /* ReinforcementComparisonBanditPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReinforcementComparisonBanditPlayer.swift; sourceTree = "<group>"; };
+		121AA91D1D3DB63400C12A12 /* Selection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Selection.swift; sourceTree = "<group>"; };
+		121AA9201D3DBDBD00C12A12 /* PlayerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerProtocol.swift; sourceTree = "<group>"; };
+		121AA9221D3E034C00C12A12 /* Printer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Printer.swift; sourceTree = "<group>"; };
+		121AA9251D3E0F6B00C12A12 /* Arithmetic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arithmetic.swift; sourceTree = "<group>"; };
+		121AA9271D3E0F7300C12A12 /* Exponential.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exponential.swift; sourceTree = "<group>"; };
+		121AA9291D3E0F7E00C12A12 /* Power.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Power.swift; sourceTree = "<group>"; };
+		121AA92B1D3E0F9700C12A12 /* Auxiliary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Auxiliary.swift; sourceTree = "<group>"; };
+		121AA92D1D3E2E3700C12A12 /* AdjustingSoftmaxPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdjustingSoftmaxPlayer.swift; sourceTree = "<group>"; };
+		12C922D81D31616400801158 /* nArmedBandit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nArmedBandit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12C922DB1D31616400801158 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		12C922DD1D31616400801158 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		12C922E01D31616400801158 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12C922E21D31616400801158 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12C922E51D31616400801158 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		12C922E71D31616400801158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12C922ED1D3161B300801158 /* SlotMachine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlotMachine.swift; sourceTree = "<group>"; };
+		12C922EF1D31830000801158 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		12C922F61D32EF8900801158 /* BanditPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BanditPlayer.swift; sourceTree = "<group>"; };
+		12C922F81D32F51600801158 /* GALineChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GALineChart.swift; sourceTree = "<group>"; };
+		12C922FC1D330BA500801158 /* ChartDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartDefaults.swift; sourceTree = "<group>"; };
+		8377E5B67AD8C4644F560FC0 /* Pods-nArmedBandit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nArmedBandit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nArmedBandit/Pods-nArmedBandit.debug.xcconfig"; sourceTree = "<group>"; };
+		B9DC12FF06AB2F43C5423334 /* Pods-nArmedBandit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nArmedBandit.release.xcconfig"; path = "Pods/Target Support Files/Pods-nArmedBandit/Pods-nArmedBandit.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12C922D51D31616400801158 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FF8DA0CE62D1D851552F075 /* Pods_nArmedBandit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		121AA9151D36DB1600C12A12 /* Bandits */ = {
+			isa = PBXGroup;
+			children = (
+				12C922ED1D3161B300801158 /* SlotMachine.swift */,
+				121AA9111D36DA1F00C12A12 /* SlotMachineBinary.swift */,
+			);
+			name = Bandits;
+			sourceTree = "<group>";
+		};
+		121AA9161D36DB1F00C12A12 /* Players */ = {
+			isa = PBXGroup;
+			children = (
+				121AA9201D3DBDBD00C12A12 /* PlayerProtocol.swift */,
+				12C922F61D32EF8900801158 /* BanditPlayer.swift */,
+				121AA9131D36DB1000C12A12 /* BinaryBanditPlayer.swift */,
+				121AA91B1D3DB48900C12A12 /* ReinforcementComparisonBanditPlayer.swift */,
+				121AA9191D3DB42900C12A12 /* PursuitBanditPlayer.swift */,
+				121AA92D1D3E2E3700C12A12 /* AdjustingSoftmaxPlayer.swift */,
+			);
+			name = Players;
+			sourceTree = "<group>";
+		};
+		121AA91F1D3DB63900C12A12 /* Helper Classes */ = {
+			isa = PBXGroup;
+			children = (
+				12C922EF1D31830000801158 /* Extensions.swift */,
+				121AA91D1D3DB63400C12A12 /* Selection.swift */,
+				121AA9221D3E034C00C12A12 /* Printer.swift */,
+			);
+			name = "Helper Classes";
+			sourceTree = "<group>";
+		};
+		121AA9241D3E0F4500C12A12 /* Surge */ = {
+			isa = PBXGroup;
+			children = (
+				121AA9251D3E0F6B00C12A12 /* Arithmetic.swift */,
+				121AA9271D3E0F7300C12A12 /* Exponential.swift */,
+				121AA9291D3E0F7E00C12A12 /* Power.swift */,
+				121AA92B1D3E0F9700C12A12 /* Auxiliary.swift */,
+			);
+			name = Surge;
+			sourceTree = "<group>";
+		};
+		12C922CF1D31616400801158 = {
+			isa = PBXGroup;
+			children = (
+				12C922DA1D31616400801158 /* nArmedBandit */,
+				12C922D91D31616400801158 /* Products */,
+				A91362A17E24D2039E3CCA09 /* Pods */,
+				8158712E4609FE48FDCEF730 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		12C922D91D31616400801158 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12C922D81D31616400801158 /* nArmedBandit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12C922DA1D31616400801158 /* nArmedBandit */ = {
+			isa = PBXGroup;
+			children = (
+				12C922DB1D31616400801158 /* AppDelegate.swift */,
+				12C922DD1D31616400801158 /* ViewController.swift */,
+				121AA9151D36DB1600C12A12 /* Bandits */,
+				121AA9161D36DB1F00C12A12 /* Players */,
+				121AA91F1D3DB63900C12A12 /* Helper Classes */,
+				12C922F51D32EF0F00801158 /* Charts */,
+				121AA9241D3E0F4500C12A12 /* Surge */,
+				12C922DF1D31616400801158 /* Main.storyboard */,
+				12C922E21D31616400801158 /* Assets.xcassets */,
+				12C922E41D31616400801158 /* LaunchScreen.storyboard */,
+				12C922E71D31616400801158 /* Info.plist */,
+			);
+			path = nArmedBandit;
+			sourceTree = "<group>";
+		};
+		12C922F51D32EF0F00801158 /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				12C922FC1D330BA500801158 /* ChartDefaults.swift */,
+				12C922F81D32F51600801158 /* GALineChart.swift */,
+			);
+			name = Charts;
+			sourceTree = "<group>";
+		};
+		8158712E4609FE48FDCEF730 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04FBBCDABF58B3CBB4FAF744 /* Pods_nArmedBandit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A91362A17E24D2039E3CCA09 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8377E5B67AD8C4644F560FC0 /* Pods-nArmedBandit.debug.xcconfig */,
+				B9DC12FF06AB2F43C5423334 /* Pods-nArmedBandit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12C922D71D31616400801158 /* nArmedBandit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12C922EA1D31616400801158 /* Build configuration list for PBXNativeTarget "nArmedBandit" */;
+			buildPhases = (
+				6FA3A4E89029A944D721C270 /* 📦 Check Pods Manifest.lock */,
+				12C922D41D31616400801158 /* Sources */,
+				12C922D51D31616400801158 /* Frameworks */,
+				12C922D61D31616400801158 /* Resources */,
+				84147282CD16BE09A06A3382 /* 📦 Embed Pods Frameworks */,
+				71CAFB542B2D9014F181BFE3 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nArmedBandit;
+			productName = nArmedBandit;
+			productReference = 12C922D81D31616400801158 /* nArmedBandit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12C922D01D31616400801158 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Grace Avery";
+				TargetAttributes = {
+					12C922D71D31616400801158 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 12C922D31D31616400801158 /* Build configuration list for PBXProject "nArmedBandit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12C922CF1D31616400801158;
+			productRefGroup = 12C922D91D31616400801158 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12C922D71D31616400801158 /* nArmedBandit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12C922D61D31616400801158 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12C922E61D31616400801158 /* LaunchScreen.storyboard in Resources */,
+				12C922E31D31616400801158 /* Assets.xcassets in Resources */,
+				12C922E11D31616400801158 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6FA3A4E89029A944D721C270 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		71CAFB542B2D9014F181BFE3 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nArmedBandit/Pods-nArmedBandit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84147282CD16BE09A06A3382 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nArmedBandit/Pods-nArmedBandit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12C922D41D31616400801158 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12C922FD1D330BA500801158 /* ChartDefaults.swift in Sources */,
+				121AA9281D3E0F7300C12A12 /* Exponential.swift in Sources */,
+				121AA9141D36DB1000C12A12 /* BinaryBanditPlayer.swift in Sources */,
+				121AA91A1D3DB42900C12A12 /* PursuitBanditPlayer.swift in Sources */,
+				121AA9121D36DA1F00C12A12 /* SlotMachineBinary.swift in Sources */,
+				121AA92A1D3E0F7E00C12A12 /* Power.swift in Sources */,
+				121AA92C1D3E0F9700C12A12 /* Auxiliary.swift in Sources */,
+				12C922DE1D31616400801158 /* ViewController.swift in Sources */,
+				12C922F71D32EF8900801158 /* BanditPlayer.swift in Sources */,
+				12C922DC1D31616400801158 /* AppDelegate.swift in Sources */,
+				121AA9261D3E0F6B00C12A12 /* Arithmetic.swift in Sources */,
+				12C922EE1D3161B300801158 /* SlotMachine.swift in Sources */,
+				12C922F91D32F51600801158 /* GALineChart.swift in Sources */,
+				121AA92E1D3E2E3700C12A12 /* AdjustingSoftmaxPlayer.swift in Sources */,
+				12C922F01D31830000801158 /* Extensions.swift in Sources */,
+				121AA91C1D3DB48900C12A12 /* ReinforcementComparisonBanditPlayer.swift in Sources */,
+				121AA9211D3DBDBD00C12A12 /* PlayerProtocol.swift in Sources */,
+				121AA91E1D3DB63400C12A12 /* Selection.swift in Sources */,
+				121AA9231D3E034D00C12A12 /* Printer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		12C922DF1D31616400801158 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12C922E01D31616400801158 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12C922E41D31616400801158 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12C922E51D31616400801158 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12C922E81D31616400801158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12C922E91D31616400801158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12C922EB1D31616400801158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8377E5B67AD8C4644F560FC0 /* Pods-nArmedBandit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = nArmedBandit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.graceavery.nArmedBandit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		12C922EC1D31616400801158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9DC12FF06AB2F43C5423334 /* Pods-nArmedBandit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = nArmedBandit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.graceavery.nArmedBandit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12C922D31D31616400801158 /* Build configuration list for PBXProject "nArmedBandit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12C922E81D31616400801158 /* Debug */,
+				12C922E91D31616400801158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12C922EA1D31616400801158 /* Build configuration list for PBXNativeTarget "nArmedBandit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12C922EB1D31616400801158 /* Debug */,
+				12C922EC1D31616400801158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12C922D01D31616400801158 /* Project object */;
+}
